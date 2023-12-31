@@ -123,6 +123,7 @@ nav a:hover {
   justify-content: space-evenly;
 }
 .filaContactos a {
+  display: inline;
   color: #e0e1f7;
   text-decoration: none;
 }
