@@ -133,9 +133,10 @@ nav a:hover {
   margin-left: 25px;
 }
 .pie {
+  margin-top: 150px;
   color: #e0e1f7;
   background-color: #03223f;
-  padding: 30px;
+  padding: 50px;
 }
 #proyectos {
   padding: 30px;
