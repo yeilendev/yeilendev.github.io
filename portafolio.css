@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0e1f7;
+}
+nav {
+  background-color: #03223f;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-left: 8px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.aboutMe {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #010d23;
+}
+.encabezado {
+  display: block;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #010d23;
+}
+.lenguaje {
+  width: 80px;
+  margin: 50px;
+  border-radius: 100%;
+}
+.skillHtml {
+  margin-right: 50px;
+}
+.skillJs {
+  margin-right: 50px;
+}
+.css {
+  margin: 0 0 0 0;
+}
+.fila1 {
+  display: flex;
+  justify-content: right;
+}
+.fila2 {
+  display: flex;
+  justify-content: right;
+  margin: 0 200px 0 0;
+}
+.skills {
+  display: flex;
+  padding: 30px;
+  justify-content: end;
+}
+
+.imagenProyectos {
+  width: 312px;
+  height: 173px;
+  transition: filter 0.5s ease-in-out;
+}
+.imagenProyectos:hover {
+  filter: blur(1px);
+}
+
+.texto-superpuesto {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.texto__superpuesto--Tienda {
+  left: 17%;
+}
+
+.texto__superpuesto--Conversor {
+  left: 50%;
+}
+.texto__superpuesto--Gym {
+  left: 83%;
+}
+.proyectoTienda:hover .texto-superpuesto {
+  opacity: 1;
+}
+
+.proyectoGym:hover .texto-superpuesto {
+  opacity: 1;
+}
+.proyectoConversor:hover .texto-superpuesto {
+  opacity: 1;
+}
+.filaProyecto {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+#proyectos {
+  padding: 30px;
+}
+#nombreTema1 {
+  display: inline;
+  margin: 0 0 0 450px;
+}
+#profilePic {
+  width: 250px;
+  height: 230px;
+  border-radius: 100%;
+}
+#nombre {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: #e0e1f7;
+}
+#aboutMe {
+  font-size: 20px;
+  font-weight: 100;
+  color: #e0e1f7;
+}
