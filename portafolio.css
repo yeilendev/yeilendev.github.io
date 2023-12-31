@@ -118,6 +118,24 @@ nav a:hover {
   position: relative;
   overflow: hidden;
 }
+.filaContactos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.filaContactos a {
+  color: #e0e1f7;
+  text-decoration: none;
+}
+.icono {
+  color: #e0e1f7;
+  font-size: 28px;
+  margin-left: 25px;
+}
+.pie {
+  color: #e0e1f7;
+  background-color: #03223f;
+  padding: 30px;
+}
 #proyectos {
   padding: 30px;
 }
