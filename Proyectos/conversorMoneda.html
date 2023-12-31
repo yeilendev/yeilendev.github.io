@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="conversorMoneda.css" />
+  </head>
+  <body>
+    <div class="pagina">
+      <header class="header">
+        <h1 style="font-size: 45px">Conversor de monedas</h1>
+      </header>
+      <main id="cuerpo">
+        <div class="cuadro">
+          <div class="resultado">
+            <h2 id="resultado">El resultado aparecera aqui</h2>
+          </div>
+          <div class="inputs">
+            <input type="text" placeholder="Cantidad" id="cantidad" />
+            <input
+              type="text"
+              placeholder="Modena local"
+              id="monedaLocal"
+              list="monedas"
+            />
+            <input
+              type="text"
+              placeholder="Modena a convertir"
+              id="monedaExtranjera"
+              list="monedas"
+            />
+          </div>
+          <button id="botonConvertir">Convertir</button>
+          <datalist id="monedas">
+            <option value="Dolar"></option>
+            <option value="Euro"></option>
+            <option value="Peso"></option>
+          </datalist>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="javascript/conversorMoneda.js"></script>
+</html>

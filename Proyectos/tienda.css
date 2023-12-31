@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbf8ef;
+}
+.cuadro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.llaves {
+  display: grid;
+  color: #000000;
+  font-family: sans-serif;
+  border: 1px solid #000000;
+  margin: 9px;
+  padding: 0 5px;
+}
+.llaves:hover {
+  box-shadow: 0 0 25px #184d13;
+}
+.llaves:focus {
+  box-shadow: 0 0 25px #184d13;
+}
+p {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.img-llave {
+  width: 200px;
+  height: 200px;
+}
+#comprar {
+  margin: 15px auto;
+  display: block;
+  width: 100px;
+  height: 30px;
+  background-color: #1e7e1e;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+}

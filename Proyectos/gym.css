@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+ion-icon {
+  display: flex;
+  margin: 8px;
+  font-size: 30px;
+  color: white;
+}
+h1 {
+  color: black;
+  background-color: darkred;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h2 {
+  color: darkred;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p,
+.theme1 {
+  font-size: 18px;
+  text-align: justify;
+}
+.theme3 {
+  font-family: monospace;
+  font-size: 15px;
+}
