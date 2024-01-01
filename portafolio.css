@@ -84,7 +84,6 @@ nav a:hover {
 }
 
 .texto-superpuesto {
-  color: #03223f;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 45%;
@@ -94,13 +93,16 @@ nav a:hover {
   transition: opacity 0.3s ease-in-out;
 }
 .texto__superpuesto--Tienda {
+  color: #03223f;
   left: 17%;
 }
 
 .texto__superpuesto--Conversor {
+  color: #03223f;
   left: 50%;
 }
 .texto__superpuesto--Gym {
+  color: #03223f;
   left: 83%;
 }
 .proyectoTienda:hover .texto-superpuesto {
