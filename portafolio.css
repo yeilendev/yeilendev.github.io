@@ -5,7 +5,7 @@ body {
 }
 nav {
   background-color: #03223f;
-  padding: 10px;
+  padding: 0.5em;
 }
 
 nav ul {
@@ -19,14 +19,14 @@ nav ul {
 
 nav li {
   float: left;
-  margin-left: 8px;
+  margin-left: 0.3em;
 }
 
 nav a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1em 0.8em;
   text-decoration: none;
 }
 
@@ -37,28 +37,28 @@ nav a:hover {
 .aboutMe {
   display: flex;
   justify-content: space-around;
-  padding: 30px;
+  padding: 2em;
   background-color: #010d23;
 }
 .encabezado {
   display: block;
   justify-content: space-around;
-  padding: 30px;
+  padding: 2.2em;
   background-color: #010d23;
 }
 .lenguaje {
-  width: 80px;
-  margin: 50px;
+  width: 5em;
+  margin: 3em;
   border-radius: 100%;
 }
 .skillHtml {
-  margin-right: 100px;
+  margin-right: 7em;
 }
 .skillJs {
-  margin-right: 100px;
+  margin-right: 7em;
 }
 .skillCss {
-  margin-right: 50px;
+  margin-right: 3em;
 }
 .fila1 {
   display: flex;
@@ -70,13 +70,13 @@ nav a:hover {
 }
 .skills {
   display: flex;
-  padding: 30px;
+  padding: 3em;
   justify-content: end;
 }
 
 .imagenProyectos {
-  width: 312px;
-  height: 173px;
+  width: 100%;
+  height: 100%;
   transition: filter 0.5s ease-in-out;
 }
 .imagenProyectos:hover {
@@ -86,9 +86,9 @@ nav a:hover {
 .texto-superpuesto {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 45%;
+  top: 35%;
   color: white;
-  font-size: 20px;
+  font-size: 1.7em;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
@@ -97,10 +97,10 @@ nav a:hover {
 }
 
 .texto__superpuesto--Conversor {
-  left: 50%;
+  left: 51%;
 }
 .texto__superpuesto--Gym {
-  left: 83%;
+  left: 84%;
 }
 .proyectoTienda:hover .texto-superpuesto {
   opacity: 1;
@@ -129,34 +129,30 @@ nav a:hover {
 }
 .icono {
   color: #e0e1f7;
-  font-size: 28px;
-  margin-left: 25px;
+  font-size: 2em;
+  margin-left: 0.8em;
 }
 .pie {
-  margin-top: 150px;
+  margin-top: 8em;
   color: #e0e1f7;
   background-color: #03223f;
-  padding: 50px;
+  padding: 3em;
 }
 #proyectos {
-  padding: 30px;
-}
-#nombreTema1 {
-  display: inline;
-  margin: 0 0 0 450px;
+  padding: 1em;
 }
 #profilePic {
-  width: 250px;
-  height: 230px;
+  width: 16em;
+  height: 15.8em;
   border-radius: 100%;
 }
 #nombre {
   font-family: "Lato", sans-serif;
-  font-size: 50px;
+  font-size: 3em;
   color: #e0e1f7;
 }
 #aboutMe {
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: 100;
   color: #e0e1f7;
 }
