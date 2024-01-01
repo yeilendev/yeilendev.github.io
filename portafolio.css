@@ -106,13 +106,16 @@ nav a:hover {
   left: 83%;
 }
 .proyectoTienda:hover .texto-superpuesto {
+  color: #03223f;
   opacity: 1;
 }
 
 .proyectoGym:hover .texto-superpuesto {
+  color: #03223f;
   opacity: 1;
 }
 .proyectoConversor:hover .texto-superpuesto {
+  color: #03223f;
   opacity: 1;
 }
 .filaProyecto {
