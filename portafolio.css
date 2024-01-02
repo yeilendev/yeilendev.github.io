@@ -21,18 +21,20 @@ body {
 
 .barra li {
   float: left;
-  margin-left: 0.3em;
+  margin-right: 0.5em;
 }
 
-.barra a {
+.barra button {
   display: block;
   color: white;
+  background-color: #03223f;
+  border: none;
   text-align: center;
   padding: 1em 0.8em;
   text-decoration: none;
 }
 
-.barra a:hover {
+.barra button:hover {
   background-color: #ddd;
   color: black;
 }
